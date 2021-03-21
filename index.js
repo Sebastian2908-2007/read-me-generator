@@ -2,7 +2,8 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
 const util = require('util');
-const markDownGen = require('./util/generateMarkdown')
+
+const generateMarkDown = require('./utils/generateMarkdown.js');
 
 // question Array
 
@@ -17,7 +18,7 @@ const questions = [{
 }, {
     type: "input",
     message: "Make your content table",
-    name: "Table Of Contents"
+    name: "TableOfContents"
 }, {
     type: "input",
     message: "Which packages must be installed for app functionality?",
@@ -50,7 +51,7 @@ const questions = [{
     type: "input",
     message: "Enter A valid E-Mail please.",
     name: "email"
-}
+},
 
 ];
 
@@ -58,7 +59,7 @@ const questions = [{
 
 function writeToFile(fileName, data) {
 
-    fs.writeFile(fileName, data, function(err) {
+    fs.writeFile( fileName, data, function(err) {
         console.log(fileName);
         console.log(data);
 
@@ -74,7 +75,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions)
        .then(function(data) {
-           writeToFile("ReadMe.md", MarkDownGen(data));
+           writeToFile("ReadMe.md", generateMarkDown (data));
            console.log(data);
        })
 };
