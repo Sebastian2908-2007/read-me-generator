@@ -16,9 +16,10 @@ const licenseLink = {
 }
 function renderLicenseBadge(data) {
    return `
+                     #License
+                 ${data.License}
       ${licensesBadge[data.License]}
-                 #License
-              ${data.License} 
+                 
       ` 
 };
 
