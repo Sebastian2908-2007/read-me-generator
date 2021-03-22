@@ -1,8 +1,8 @@
 
     
-      [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)]
+      [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)]
                  #License
-              ISC 
+              Mozzilla 
       
     #
     https://github.com//
@@ -33,7 +33,7 @@
     
     
                   ##License
-                    ISC 
- [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)]
+                    Mozzilla 
+ [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)]
               ## License link
-   (https://www.isc.org/licenses/)   
+   (https://www.mozilla.org/en-US/MPL/1.1/)   

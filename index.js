@@ -27,7 +27,7 @@ const questions = [{
     type: "checkbox",
     name: "License",
     message: "what type of license does your program use?(isc,MIT...etc.)",
-    choices: ['ISC', 'MIT', 'mozzilla', '(BY)', '(ODbl)', '(PDDL)']
+    choices: ['ISC', 'MIT', 'Mozzilla', '(BY)', '(ODbl)', '(PDDL)']
 }, {
     type: "input",
     message: "Name some contributors to your project",
