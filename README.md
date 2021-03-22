@@ -1,8 +1,8 @@
 
     
-      [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)]
+      [![License: Open Data Commons Attribution](https://img.shields.io/badge/License-ODC_BY-brightgreen.svg)]
                  #License
-              Mozzilla 
+              (BY) 
       
     #
     https://github.com//
@@ -33,7 +33,7 @@
     
     
                   ##License
-                    Mozzilla 
- [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)]
+                    (BY) 
+ [![License: Open Data Commons Attribution](https://img.shields.io/badge/License-ODC_BY-brightgreen.svg)]
               ## License link
-   (https://www.mozilla.org/en-US/MPL/1.1/)   
+   (https://creativecommons.org/licenses/by/2.0/)   
