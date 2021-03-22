@@ -17,10 +17,6 @@ const questions = [{
     name: "Description"
 }, {
     type: "input",
-    message: "Make your content table",
-    name: "TableOfContents"
-}, {
-    type: "input",
     message: "Which packages must be installed for app functionality?",
     name: "Installation"
 }, {
@@ -28,9 +24,10 @@ const questions = [{
     message: "How is your Application used? Be detailed.",
     name: "usage"
 }, {
-    type: "input",
+    type: "checkbox",
+    name: "License",
     message: "what type of license does your program use?(isc,MIT...etc.)",
-    name: "License"
+    choices: ['ISC', 'MIT', 'mozzilla', '(BY)', '(ODbl)', '(PDDL)']
 }, {
     type: "input",
     message: "Name some contributors to your project",
@@ -60,8 +57,8 @@ const questions = [{
 function writeToFile(fileName, data) {
 
     fs.writeFile( fileName, data, function(err) {
-        console.log(fileName);
-        console.log(data);
+        //console.log(fileName);
+       // console.log(data);
 
         if (err) {
             return console.log(err);
@@ -76,7 +73,7 @@ function init() {
     inquirer.prompt(questions)
        .then(function(data) {
            writeToFile("ReadMe.md", generateMarkDown (data));
-           console.log(data);
+           //console.log(data);
        })
 };
 
