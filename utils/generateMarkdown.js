@@ -16,9 +16,9 @@ const licenseLink = {
 }
 function renderLicenseBadge(data) {
    return `
-                     #License
-                 ${data.License}
-      ${licensesBadge[data.License]}
+# License
+ ${data.License}
+${licensesBadge[data.License]}
                  
       ` 
 };
@@ -29,44 +29,61 @@ ${licenseLink[data.License]}`
 };*/
 function renderLicenseSection(data) {
         return `
-                  ##License
-                    ${data.License} 
- ${licensesBadge[data.License]}
-              ## License link
-   ${licenseLink[data.License]}  `
+## License
+${data.License} 
+${licensesBadge[data.License]}
+
+## License link
+${licenseLink[data.License]}  `
 }
 
 
 function generateMarkDown(data) {
     return`
-    ${renderLicenseBadge(data)}
-    #${data.Title}
-    https://github.com/${data.username}/${data.Title}
-    ##Description
-    ${data.Description}
-    ## Table Of Contents
-    *[Description](#description)
-    *[Installation](#installation)
-    * [Usage](#usage)
-    * [Contributors](#contributors)
-    * [Test](#test)
-    * [Contact](#contact)
-    * [Questions](#questions)
+${renderLicenseBadge(data)}
+
+# ${data.Title}
+ https://github.com/${data.username}/${data.Title}
+ ## Description
+
+${data.Description}
     
-    ##Installation
-    ${data.Installation}
-    ##Usage
-    ${data.usage}
-    ##Contributors
-    ${data.Contributors}
-    ##Test 
-    ${data.testing}
-    ##Contact
-    ${data.Contact}
-    ##Questions
-    ${data.username}
-    If you Have any Questions email me @
-    ${data.email}
-    ${renderLicenseSection(data)} `
+ ## Table Of Contents
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributors](#contributors)
+* [Test](#test)
+* [Contact](#contact)
+* [Questions](#questions)
+    
+ ## Installation
+
+${data.Installation}
+
+## Usage
+ ${data.usage}
+
+ ## Contributors
+
+  ${data.Contributors}
+
+ ## Test 
+
+ ${data.testing}
+    
+## Contact
+
+ ${data.Contact}
+
+## Questions
+
+ ${data.username}
+
+If you Have any Questions email me @
+
+${data.email}
+
+${renderLicenseSection(data)} `
 };
 module.exports = generateMarkDown
