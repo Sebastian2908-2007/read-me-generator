@@ -5,7 +5,7 @@
       
 
 # Read me generator
- https://github.com/Sebastian2908-2007/Read me genorator
+ https://github.com/Sebastian2908-2007/Read-me-generator
  ## Description
 
 This is a node.js command line application for creating good readme's on the fly
