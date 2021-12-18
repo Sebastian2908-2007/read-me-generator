@@ -1,16 +1,14 @@
-
-
 # License
  ISC
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)]
                  
       
 
-# fgsdgdrf
- https://github.com/dfgsdgsdfsdf/fgsdgdrf
+# Read me generator
+ https://github.com/Sebastian2908-2007/Read me genorator
  ## Description
 
-sdfggsdfgs
+This is a node.js command line application for creating good readme's on the fly
     
  ## Table Of Contents
 * [Description](#description)
@@ -23,30 +21,30 @@ sdfggsdfgs
     
  ## Installation
 
-fgsdgsdfg
+inquirer
 
 ## Usage
- gsdgsdfgsd
+ First you need to clone repo. After repo is cloned run npm i, once that is done run "node index" in terminal then answer all question prompts.
 
  ## Contributors
 
-  sdfgsdfgsdf
+  Sebastian Bowen
 
  ## Test 
 
- gsdgsdfgsdf
+ none
     
 ## Contact
 
- fdsgsdfgsdgf
+ sebastiancrespin279@gmail.com
 
 ## Questions
 
- dfgsdgsdfsdf
+ Sebastian2908-2007
 
 If you Have any Questions email me @
 
-sdfgsdgsdfgsdf
+sebastiancrespin279@gmail.com
 
 
 ## License
@@ -54,4 +52,6 @@ ISC
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)]
 
 ## License link
-(https://www.isc.org/licenses/)   
+(https://www.isc.org/licenses/) 
+
+
